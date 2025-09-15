@@ -74,9 +74,7 @@ The folder should appear in the directory.
      
    This executes pytest -v inside the container.  
 
----
-
-## 🧪 Tests Included
+## Tests Included:
 
 The test suite checks that:  
 - Data loads properly (no empty DataFrame)  
@@ -87,27 +85,31 @@ The test suite checks that:
 
 ---
 
-## ✅ Requirements
+## Running the Analysis Notebook (706_A3.ipynb)
 
-Dependencies are listed in requirements.txt:  
+1. Start Jupyter Notebook inside the container and expose port 8888:
 
-pandas>=1.3.0  
-numpy>=1.21.0  
-matplotlib>=3.5.0  
-seaborn>=0.11.0  
-scikit-learn>=1.0.0  
-pytest>=7.0.0  
+   ```bash 
+   docker run -it -p 8888:8888 my-analysis jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
+   ```
+
+2. Copy the URL with the token from the container logs (it will look like http://127.0.0.1:8888/?token=abcd1234).
+
+3. Open the link in your local browser. Navigate to `706_A3.ipynb` in the Jupyter interface.
+
+Your notebook will now run inside the fully reproducible Docker environment.
 
 ---
 
-## 🔄 Reusability
-
-To rerun the project in the future:  
-1. Start Docker Desktop  
-2. Open this repo in VS Code  
-3. Build the image again if needed:  
-   docker build -t my-analysis .  
-4. Run the tests:  
-   docker run --rm my-analysis  
-
-The environment is fully reproducible across systems.
+> **Note:**  
+> **Note:**  
+> The Dockerfile is set up to run tests automatically with:
+> ```
+> CMD ["pytest", "-v"]
+> ```
+> If you want to run something else (like Jupyter) without changing the Dockerfile, you can **override the command** at runtime.  
+> Example:  
+> ```
+> docker run -it -p 8888:8888 my-analysis jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
+> ```
+> This will start Jupyter inside the container instead of running tests.
