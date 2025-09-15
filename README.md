@@ -35,7 +35,7 @@ Clone this repository by doing the following commands:
 ```bash
 git init
 git clone <repository URL>
-
+```
 
 The folder should appear in the directory.
 
