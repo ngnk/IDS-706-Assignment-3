@@ -1,14 +1,12 @@
 # Week 3 Mini-Assignment - Testing and Environment Setup
 
-A step-by-step tutorial README for the notebook **706_A3.ipynb**.
-
-It walks you through how to setup the docker environment and run the project completed last week, the dataset it uses, how to set up your environment, and how to run and extend the analysis.
+A step-by-step tutorial that walks you through how to setup the docker environment and run the project completed last week.
 
 ---
 
 ## 1) Overview
 
-This notebook takes the exact same analysis from last week's commodities data project and adds Docker containerization and testing validation. The script uses data from commodities dating back to 2000, does some basic EDA, analysis, and filtering, before running some basic ML on the price of gold, and finally some visualization.
+This notebook takes the exact same analysis from last week's commodities data project and adds Docker containerization and testing validation. To recap, the script uses data from commodities dating back to 2000, does some basic EDA, analysis, and filtering, before running some basic ML on the price of gold, and finally displays some visualizations.
 
 ---
 
