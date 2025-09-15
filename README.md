@@ -6,7 +6,11 @@ A step-by-step tutorial that walks you through how to setup the docker environme
 
 ## 1) Overview
 
-This notebook takes the exact same analysis from last week's commodities data project and adds Docker containerization and testing validation. To recap, the script uses data from commodities dating back to 2000, does some basic EDA, analysis, and filtering, before running some basic ML on the price of gold, and finally displays some visualizations.
+This notebook takes the exact same analysis from last week's commodities data project and adds Docker containerization and testing validation. 
+
+To recap, the script uses data from commodities dating back to 2000, does some basic EDA, analysis, and filtering, before running some basic ML on the price of gold, and finally displays some visualizations.
+
+The goal of last week's project was to get a clear picture of commodities data, pricing trends, and explore if we can accurately predict pricing trends with machine learning. In general, we found that commodities increased in price over the years, but the ML predictions need a lot of fine-tuning to be considered reliable.
 
 ---
 
