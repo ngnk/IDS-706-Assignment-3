@@ -76,7 +76,9 @@ The folder should appear in the directory.
    docker run --rm my-analysis
    ```
      
-   This executes pytest -v inside the container.  
+   This executes pytest -v inside the container.
+
+   If setup correctly, all tests should pass as they're mainly focused on checking if the data is ok, and if the necessary packages are installed. If not, use error logs to troubleshoot.
 
 ## Tests Included:
 
