@@ -35,3 +35,15 @@ Clone this repository by doing the following commands:
 ```bash
 git init
 git clone <repository URL>
+
+
+The folder should appear in the directory.
+
+**Verify it has the following files:**
+
+1. **706_A3.ipynb**
+2. **README.md**
+3. **All_commodities_data.csv**
+4. **Dockerfile**
+5. **Requirements.txt**
+6. **Test_script.py**
