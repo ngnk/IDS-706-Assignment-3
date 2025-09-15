@@ -80,6 +80,8 @@ The folder should appear in the directory.
 
    If setup correctly, all tests should pass as they're mainly focused on checking if the data is ok, and if the necessary packages are installed. If not, use error logs to troubleshoot.
 
+   ![Succesful Tests](passed_test.png)
+
 ## Tests Included:
 
 The test suite checks that:  
