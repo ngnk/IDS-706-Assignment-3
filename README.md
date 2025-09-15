@@ -93,15 +93,12 @@ The test suite checks that:
    docker run -it -p 8888:8888 my-analysis jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
    ```
 
-2. Copy the URL with the token from the container logs (it will look like http://127.0.0.1:8888/?token=abcd1234).
+2. Copy the URL with the token from the container logs (there might be multiple, just try all and one will work)
 
-3. Open the link in your local browser. Navigate to `706_A3.ipynb` in the Jupyter interface.
-
-Your notebook will now run inside the fully reproducible Docker environment.
+3. Open the link in your local browser. Navigate to `706_A3.ipynb` in the Jupyter interface. Select 'Run' from the top bar, and click 'Run All Cells'.
 
 ---
 
-> **Note:**  
 > **Note:**  
 > The Dockerfile is set up to run tests automatically with:
 > ```
