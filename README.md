@@ -1,5 +1,7 @@
 # Week 3 Mini-Assignment - Testing and Environment Setup
 
+[![CI](https://github.com/ngnk/IDS-706-Assignment-3/actions/workflows/main.yml/badge.svg)](https://github.com/ngnk/IDS-706-Assignment-3/actions/workflows/main.yml)
+
 A step-by-step tutorial that walks you through how to setup the docker environment and run the project completed last week.
 
 ---
