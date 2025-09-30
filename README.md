@@ -57,7 +57,7 @@ The folder should appear in the directory.
 4. **Dockerfile**
 5. **Requirements.txt**
 6. **Test_script.py**
-7. ** MakeFile**
+7. **MakeFile**
 8. **.flake8**
 
 ## 4) Docker Setup and Environment Creation (Step-by-Step Tutorial)
