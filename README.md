@@ -126,3 +126,13 @@ The test suite checks that:
 > docker run -it -p 8888:8888 my-analysis jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
 > ```
 > This will start Jupyter inside the container instead of running tests.
+
+---
+Screenshots have been included at large, but for simplicity's sake:
+Succesful workflow:
+workflow success 2.png
+
+Sample refactor:
+refactor_ex2.png
+
+---
