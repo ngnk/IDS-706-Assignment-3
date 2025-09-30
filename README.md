@@ -12,11 +12,11 @@ A step-by-step tutorial that walks you through how to setup the docker environme
 
 This notebook builds on the previous assignment, eliminates unnecessary code, and focuses exclusively on a trading scenario.
 
-To recap, the script uses data from commodities dating back to 2000, does some basic EDA, analysis, and filtering, before running some basic ML on the price of gold.
+This script eliminates much of the exploratory data analysis (EDA), since we already examined the information in previous assignments. The focus here is on evaluating machine learning performance as a trading strategy.
+
+For granular details on the dataset and model performance, please refer to the notebook itself.
 
 Simply follow the instructions below. 
-
-For additional details on the dataset and model performance, please refer to the notebook itself.
 
 ---
 
