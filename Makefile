@@ -1,4 +1,3 @@
-cat << 'EOF' > Makefile
 .PHONY: install format lint test all
 
 install:
@@ -14,4 +13,3 @@ test:
 	pytest
 
 all: lint format test
-EOF
