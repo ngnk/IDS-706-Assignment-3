@@ -1,4 +1,4 @@
-# Week 6 Major-Assignment - Enhanced Project
+# Week 5 Major-Assignment - Enhanced Project
 ---
 
 [![CI](https://github.com/ngnk/IDS-706-Assignment-3/actions/workflows/main.yml/badge.svg)](https://github.com/ngnk/IDS-706-Assignment-3/actions/workflows/main.yml)
