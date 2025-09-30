@@ -128,11 +128,15 @@ The test suite checks that:
 > This will start Jupyter inside the container instead of running tests.
 
 ---
-Screenshots have been included at large, but for simplicity's sake:
+**Screenshots**
+Screenshots have been included in the repository, but for simplicity's sake:
+
 Succesful workflow:
-workflow success 2.png
+![Workflow Success](workflow%20success%202.png)
+
 
 Sample refactor:
-refactor_ex2.png
+![Refactor Example](refactor_ex2.png)
+
 
 ---
