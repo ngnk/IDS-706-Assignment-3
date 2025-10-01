@@ -99,6 +99,23 @@ The test suite checks that:
 - "Gold" is present in the commodity column  
 - Required packages (pandas, numpy, seaborn, matplotlib, scikit-learn) import successfully  
 
+6. Code Quality Tools
+
+Black Formatter
+Use `black` for code formatting to ensure consistent Python code style across the project.
+
+**Usage via Makefile:**
+```bash
+make format
+
+Flake8 Linter
+
+Use flake8 for linting to catch potential errors and enforce PEP 8 style guidelines.
+Usage via Makefile:
+
+```bash
+make lint
+
 ---
 
 ## Running the Analysis Notebook (706_A3.ipynb)
