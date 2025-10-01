@@ -102,9 +102,10 @@ The test suite checks that:
 6. Code Quality Tools
 
 Black Formatter
+
 Use `black` for code formatting to ensure consistent Python code style across the project.
 
-**Usage via Makefile:**
+Usage via Makefile:
 ```bash
 make format
  ```
@@ -112,6 +113,7 @@ make format
 Flake8 Linter
 
 Use flake8 for linting to catch potential errors and enforce PEP 8 style guidelines.
+
 Usage via Makefile:
 
 ```bash
