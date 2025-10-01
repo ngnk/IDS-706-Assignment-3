@@ -107,6 +107,7 @@ Use `black` for code formatting to ensure consistent Python code style across th
 **Usage via Makefile:**
 ```bash
 make format
+ ```
 
 Flake8 Linter
 
@@ -115,6 +116,7 @@ Usage via Makefile:
 
 ```bash
 make lint
+ ```
 
 ---
 
