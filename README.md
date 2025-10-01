@@ -77,7 +77,28 @@ The folder should appear in the directory.
    docker build -t my-analysis .
    ```
 
-5. Run the tests inside the container  
+5. Ensure consistent code quality
+
+Black Formatter
+
+Use `black` for code formatting to ensure consistent Python code style across the project.
+
+Usage via Makefile:
+```bash
+make format
+ ```
+
+Flake8 Linter
+
+Use flake8 for linting to catch potential errors and enforce PEP 8 style guidelines.
+
+Usage via Makefile:
+
+```bash
+make lint
+ ```
+
+6. Run the tests inside the container  
    Once the build is complete, run:
 
    ```bash 
@@ -99,26 +120,7 @@ The test suite checks that:
 - "Gold" is present in the commodity column  
 - Required packages (pandas, numpy, seaborn, matplotlib, scikit-learn) import successfully  
 
-6. Code Quality Tools
 
-Black Formatter
-
-Use `black` for code formatting to ensure consistent Python code style across the project.
-
-Usage via Makefile:
-```bash
-make format
- ```
-
-Flake8 Linter
-
-Use flake8 for linting to catch potential errors and enforce PEP 8 style guidelines.
-
-Usage via Makefile:
-
-```bash
-make lint
- ```
 
 ---
 
